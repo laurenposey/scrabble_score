@@ -2,7 +2,7 @@
 require('rspec')
 require('scrabble_score.rb')
 
-describe('Hash#scrabble') do
+describe('String#scrabble') do
 
   it("returns a scrabble score for a letter") do
     expect("A".scrabble()).to(eq(1))
